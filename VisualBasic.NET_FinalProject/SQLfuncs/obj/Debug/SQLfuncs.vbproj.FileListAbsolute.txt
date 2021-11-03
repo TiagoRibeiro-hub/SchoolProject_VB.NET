@@ -1,0 +1,10 @@
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.Resources.resources
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.vbproj.GenerateResource.cache
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.vbproj.CoreCompileInputs.cache
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\bin\Debug\SQLfuncs.dll
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\bin\Debug\SQLfuncs.pdb
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\bin\Debug\SQLfuncs.xml
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.dll
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.xml
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.pdb
+C:\Users\tiago\OneDrive\Ambiente de Trabalho\App\VB.projecto\SQLfuncs\obj\Debug\SQLfuncs.vbprojAssemblyReference.cache

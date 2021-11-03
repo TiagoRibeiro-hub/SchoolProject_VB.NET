@@ -1,0 +1,1202 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AppWeb
+</name>
+</assembly>
+<members>
+<member name="T:AppWeb.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:AppWeb.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:AppWeb.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:AppWeb.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:AppWeb.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:AppWeb.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:AppWeb.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.lampada_off">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.lampada_on">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AppWeb.My.Resources.Resources.planta_de_casa_com_3_quartos_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:AppWeb.index._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.index._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.index._LinkButtonLogIn">
+<summary>
+LinkButtonLogIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.index._LinkButtonPlanta">
+<summary>
+LinkButtonPlanta control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.index._LinkButtonChange">
+<summary>
+LinkButtonChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.index._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._LabelUserName">
+<summary>
+LabelUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._TextBoxUserName">
+<summary>
+TextBoxUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._ButtonLogIn">
+<summary>
+ButtonLogIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.LogIn._LinkButtonRegister">
+<summary>
+LinkButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._TimerRefresh">
+<summary>
+TimerRefresh control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._UpdateProgress1">
+<summary>
+UpdateProgress1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzSala">
+<summary>
+ButtonLuzSala control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzSala">
+<summary>
+LabelLuzSala control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzCozinha">
+<summary>
+ButtonLuzCozinha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzCozinha">
+<summary>
+LabelLuzCozinha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzCorredor">
+<summary>
+ButtonLuzCorredor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzCorredor">
+<summary>
+LabelLuzCorredor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzQuarto1">
+<summary>
+ButtonLuzQuarto1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzQuarto1">
+<summary>
+LabelLuzQuarto1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzQuarto2">
+<summary>
+ButtonLuzQuarto2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzQuarto2">
+<summary>
+LabelLuzQuarto2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzQuarto3">
+<summary>
+ButtonLuzQuarto3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzQuarto3">
+<summary>
+LabelLuzQuarto3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzCasaDeBanho1">
+<summary>
+ButtonLuzCasaDeBanho1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzCasaDeBanho1">
+<summary>
+LabelLuzCasaDeBanho1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonLuzCasaDeBanho2">
+<summary>
+ButtonLuzCasaDeBanho2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzCasaDeBanho2">
+<summary>
+LabelLuzCasaDeBanho2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCasaDeBanho1On">
+<summary>
+ImageButtonLuzCasaDeBanho1On control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCasaDeBanho1Off">
+<summary>
+ImageButtonLuzCasaDeBanho1Off control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto1On">
+<summary>
+ImageButtonLuzQuarto1On control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto1Off">
+<summary>
+ImageButtonLuzQuarto1Off control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImagePlanta">
+<summary>
+ImagePlanta control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto2On">
+<summary>
+ImageButtonLuzQuarto2On control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto2Off">
+<summary>
+ImageButtonLuzQuarto2Off control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCozinhaOn">
+<summary>
+ImageButtonLuzCozinhaOn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCozinhaOff">
+<summary>
+ImageButtonLuzCozinhaOff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto3On">
+<summary>
+ImageButtonLuzQuarto3On control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzQuarto3Off">
+<summary>
+ImageButtonLuzQuarto3Off control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonCasaDeBanho2On">
+<summary>
+ImageButtonCasaDeBanho2On control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCasaDeBanho2Off">
+<summary>
+ImageButtonLuzCasaDeBanho2Off control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCorredorOn">
+<summary>
+ImageButtonLuzCorredorOn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzCorredorOff">
+<summary>
+ImageButtonLuzCorredorOff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzSalaOn">
+<summary>
+ImageButtonLuzSalaOn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ImageButtonLuzSalaOff">
+<summary>
+ImageButtonLuzSalaOff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelAgendamento">
+<summary>
+LabelAgendamento control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelEscolherHoras">
+<summary>
+LabelEscolherHoras control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._DropDownListHH">
+<summary>
+DropDownListHH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._DropDownListMM">
+<summary>
+DropDownListMM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._DropDownListSS">
+<summary>
+DropDownListSS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelHH">
+<summary>
+LabelHH control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelMM">
+<summary>
+LabelMM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelSS">
+<summary>
+LabelSS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesSalaAgend">
+<summary>
+LabelLuzesSalaAgend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxSalaOn">
+<summary>
+CheckBoxSalaOn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxSalaOff">
+<summary>
+CheckBoxSalaOff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesCorredorAgen">
+<summary>
+LabelLuzesCorredorAgen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCorredorON">
+<summary>
+CheckBoxCorredorON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCorredorOFF">
+<summary>
+CheckBoxCorredorOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesCozinhaAgen">
+<summary>
+LabelLuzesCozinhaAgen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesCozinhaAgenON">
+<summary>
+CheckBoxluzesCozinhaAgenON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesCozinhaAgenOFF">
+<summary>
+CheckBoxluzesCozinhaAgenOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesQuarto1Agen">
+<summary>
+LabelLuzesQuarto1Agen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto1AgenON">
+<summary>
+CheckBoxluzesQuarto1AgenON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto1AgenOFF">
+<summary>
+CheckBoxluzesQuarto1AgenOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesQuarto2Agen">
+<summary>
+LabelLuzesQuarto2Agen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto2AgenON">
+<summary>
+CheckBoxluzesQuarto2AgenON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto2AgenOFF">
+<summary>
+CheckBoxluzesQuarto2AgenOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesQuarto3Agen">
+<summary>
+LabelLuzesQuarto3Agen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto3AgenON">
+<summary>
+CheckBoxluzesQuarto3AgenON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxluzesQuarto3AgenOFF">
+<summary>
+CheckBoxluzesQuarto3AgenOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesCasaDeBanho1Agen">
+<summary>
+LabelLuzesCasaDeBanho1Agen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxLuzesCasaDeBanho1AgendON">
+<summary>
+CheckBoxLuzesCasaDeBanho1AgendON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxLuzesCasaDeBanho1AgendOFF">
+<summary>
+CheckBoxLuzesCasaDeBanho1AgendOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelLuzesCasaDeBanho2Agen">
+<summary>
+LabelLuzesCasaDeBanho2Agen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxLuzesCasaDeBanho2AgendON">
+<summary>
+CheckBoxLuzesCasaDeBanho2AgendON control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxLuzesCasaDeBanho2AgendOFF">
+<summary>
+CheckBoxLuzesCasaDeBanho2AgendOFF control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelEscolherData">
+<summary>
+LabelEscolherData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelAno">
+<summary>
+LabelAno control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelAnoRes">
+<summary>
+LabelAnoRes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelMes">
+<summary>
+LabelMes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelMesRes">
+<summary>
+LabelMesRes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelDia">
+<summary>
+LabelDia control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._DropDownListDias">
+<summary>
+DropDownListDias control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonFazerAgendamento">
+<summary>
+ButtonFazerAgendamento control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._GridViewAgendIndividual">
+<summary>
+GridViewAgendIndividual control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._PanelAutorizacaoAdmin">
+<summary>
+PanelAutorizacaoAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelUserAutorizacao">
+<summary>
+LabelUserAutorizacao control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelSalaAutor">
+<summary>
+LabelSalaAutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelCorredorAutor">
+<summary>
+LabelCorredorAutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelCozinhaAutor">
+<summary>
+LabelCozinhaAutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelQuarto1Autor">
+<summary>
+LabelQuarto1Autor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelQuarto2Autor">
+<summary>
+LabelQuarto2Autor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelQuarto3Autor">
+<summary>
+LabelQuarto3Autor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelCasaDeBanho1Autor">
+<summary>
+LabelCasaDeBanho1Autor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelCasaDeBanhoAutor">
+<summary>
+LabelCasaDeBanhoAutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelAdminAutor">
+<summary>
+LabelAdminAutor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._LabelUsersEscolhidos">
+<summary>
+LabelUsersEscolhidos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxSalaAutori">
+<summary>
+CheckBoxSalaAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCorredorAutori">
+<summary>
+CheckBoxCorredorAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCozinhaAutori">
+<summary>
+CheckBoxCozinhaAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxQuarto1Autori">
+<summary>
+CheckBoxQuarto1Autori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxQuarto2Autori">
+<summary>
+CheckBoxQuarto2Autori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxQuarto3Autori">
+<summary>
+CheckBoxQuarto3Autori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCasaDeBanho1Autori">
+<summary>
+CheckBoxCasaDeBanho1Autori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxCasaDeBanho2Autori">
+<summary>
+CheckBoxCasaDeBanho2Autori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._CheckBoxAdminAutori">
+<summary>
+CheckBoxAdminAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._DropDownListUsersAutori">
+<summary>
+DropDownListUsersAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonRefreshAutori">
+<summary>
+ButtonRefreshAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._ButtonGravarAutori">
+<summary>
+ButtonGravarAutori control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Plant._PlaceHolderTableAutorizaçoes">
+<summary>
+PlaceHolderTableAutorizaçoes control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._LabelUserName">
+<summary>
+LabelUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._TextBoxUserName">
+<summary>
+TextBoxUserName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._LabelRepeatPassword">
+<summary>
+LabelRepeatPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._TextBoxRepeatPassword">
+<summary>
+TextBoxRepeatPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._ButtonRegister">
+<summary>
+ButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._ButtonAlterar">
+<summary>
+ButtonAlterar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.Register._CheckBoxAdmin">
+<summary>
+CheckBoxAdmin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:AppWeb.welcome._ImageWelcome">
+<summary>
+ImageWelcome control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,8 @@
+sala = l -> sal1 sal0
+corredor = h -> cor1 cor0
+cozinha = k -> coz1 coz0
+quarto1 = q -> co11 co10
+quarto2 = r -> co21 co20
+quarto3 = s -> co31 co30
+casa de banho1 = c -> cb11 cb10
+casa de banho2 = b -> cb21 cb20
